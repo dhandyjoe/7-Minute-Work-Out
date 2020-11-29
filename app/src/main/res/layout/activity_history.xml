@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_history"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ToolbarTheme"
+        app:titleTextColor="#fff" />
+
+    <TextView
+        android:id="@+id/tv_noDataRecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No Data Available"
+        android:visibility="visible"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/ll_dataDateRecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excercise Completed"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_dataDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
