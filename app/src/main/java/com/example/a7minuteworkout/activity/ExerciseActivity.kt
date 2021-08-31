@@ -10,9 +10,9 @@ import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.a7minuteworkout.Constants
-import com.example.a7minuteworkout.ExcerciseModel
-import com.example.a7minuteworkout.ExcerciseStatusAdapter
+import com.example.a7minuteworkout.database.Constants
+import com.example.a7minuteworkout.model.ExcerciseModel
+import com.example.a7minuteworkout.adapter.ExcerciseStatusAdapter
 import com.example.a7minuteworkout.R
 import kotlinx.android.synthetic.main.activity_exercise.*
 import kotlinx.android.synthetic.main.dialog_back_pressed.*

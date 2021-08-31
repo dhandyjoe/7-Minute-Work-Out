@@ -1,4 +1,7 @@
-package com.example.a7minuteworkout
+package com.example.a7minuteworkout.database
+
+import com.example.a7minuteworkout.R
+import com.example.a7minuteworkout.model.ExcerciseModel
 
 class Constants {
 

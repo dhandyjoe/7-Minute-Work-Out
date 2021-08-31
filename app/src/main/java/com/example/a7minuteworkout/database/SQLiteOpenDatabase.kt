@@ -1,4 +1,4 @@
-package com.example.a7minuteworkout
+package com.example.a7minuteworkout.database
 
 import android.content.ContentValues
 import android.content.Context

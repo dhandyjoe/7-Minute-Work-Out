@@ -5,9 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.a7minuteworkout.HistoryAdapter
+import com.example.a7minuteworkout.adapter.HistoryAdapter
 import com.example.a7minuteworkout.R
-import com.example.a7minuteworkout.SQLiteOpenDatabase
+import com.example.a7minuteworkout.database.SQLiteOpenDatabase
 import kotlinx.android.synthetic.main.activity_history.*
 import kotlinx.android.synthetic.main.dialog_back_pressed.*
 

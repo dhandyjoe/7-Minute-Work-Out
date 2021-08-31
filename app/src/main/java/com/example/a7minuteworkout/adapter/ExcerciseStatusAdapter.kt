@@ -1,4 +1,4 @@
-package com.example.a7minuteworkout
+package com.example.a7minuteworkout.adapter
 
 import android.content.Context
 import android.graphics.Color
@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.a7minuteworkout.R
+import com.example.a7minuteworkout.model.ExcerciseModel
 import kotlinx.android.synthetic.main.item_excercise_status.view.*
 
 class ExcerciseStatusAdapter(val context: Context, val items: ArrayList<ExcerciseModel>) : RecyclerView.Adapter<ExcerciseStatusAdapter.ViewHolder>() {
@@ -26,10 +28,14 @@ class ExcerciseStatusAdapter(val context: Context, val items: ArrayList<Excercis
 
         // optional
         if(item.getIsSelected()) {
-            holder.tvItem.background = ContextCompat.getDrawable(context, R.drawable.item_recycleview)
+            holder.tvItem.background = ContextCompat.getDrawable(context,
+                R.drawable.item_recycleview
+            )
             holder.tvItem.setTextColor(Color.parseColor("#000000"))
         } else if(item.getIsCompleted()) {
-            holder.tvItem.background = ContextCompat.getDrawable(context, R.drawable.item_recycleview_complete)
+            holder.tvItem.background = ContextCompat.getDrawable(context,
+                R.drawable.item_recycleview_complete
+            )
             holder.tvItem.setTextColor(Color.parseColor("#FFFFFF"))
         }
     }
