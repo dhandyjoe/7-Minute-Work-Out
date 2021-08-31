@@ -1,9 +1,10 @@
-package com.example.a7minuteworkout
+package com.example.a7minuteworkout.activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.a7minuteworkout.R
+import com.example.a7minuteworkout.SQLiteOpenDatabase
 import kotlinx.android.synthetic.main.activity_finish.*
 import java.text.SimpleDateFormat
 import java.util.*

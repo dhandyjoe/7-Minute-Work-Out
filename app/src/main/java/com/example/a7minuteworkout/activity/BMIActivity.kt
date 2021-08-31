@@ -1,13 +1,12 @@
-package com.example.a7minuteworkout
+package com.example.a7minuteworkout.activity
 
 import android.app.Dialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.a7minuteworkout.R
 import kotlinx.android.synthetic.main.activity_b_m_i.*
-import kotlinx.android.synthetic.main.activity_exercise.*
 import kotlinx.android.synthetic.main.activity_exercise.toolbar_excerise_activity
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.dialog_back_pressed.*
 
 class BMIActivity : AppCompatActivity() {

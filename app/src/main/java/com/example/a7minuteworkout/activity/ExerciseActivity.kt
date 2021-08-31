@@ -1,18 +1,19 @@
-package com.example.a7minuteworkout
+package com.example.a7minuteworkout.activity
 
 import android.app.Dialog
 import android.content.Intent
 import android.media.MediaPlayer
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
-import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.a7minuteworkout.Constants
+import com.example.a7minuteworkout.ExcerciseModel
+import com.example.a7minuteworkout.ExcerciseStatusAdapter
+import com.example.a7minuteworkout.R
 import kotlinx.android.synthetic.main.activity_exercise.*
 import kotlinx.android.synthetic.main.dialog_back_pressed.*
 import java.util.*
